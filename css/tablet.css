@@ -1,0 +1,49 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    /* margin: 0; */
+  }
+
+  /* 1 секція */
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bgi-tab-1x.jpg);
+    padding-bottom: 108px;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+  }
+
+  /* 2 секція */
+  .benefits {
+    column-gap: 24px;
+    flex-basis: calc((100% - 24px) / 2);
+  }
+
+  .benefits-header {
+    text-align: left;
+  }
+
+  .characteristics-item {
+    width: 356px;
+  }
+
+  /* Щільність пікселів: 2 */
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bgi-tab-2x.jpg);
+    }
+  }
+}

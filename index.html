@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,14 +19,13 @@
   </head>
   <body>
     <!--Шапка сторінки-->
-    <header class="header">
+
+    <!-- <header class="header">
       <div class="container header-container">
-        <!--Логотип-->
         <a href="./index.html" class="logo"
           ><span class="web">Web</span>studio</a
         >
 
-        <!--Розділ основної навігації з посиланнями на секції поточної або інших сторінок-->
         <nav class="navigation">
           <ul class="navigation-list">
             <li>
@@ -40,41 +42,37 @@
           </ul>
         </nav>
 
-        <!--Електронна пошта-->
         <a href="mailto:info@devstudio.com" class="contacts email"
           >info@devstudio.com</a
         >
 
-        <!--Телефонний номер-->
         <a href="tel:+11(000)111-11-11" class="contacts">+11 (000) 111-11-11</a>
       </div>
-    </header>
+    </header> -->
 
     <!--Основний унікальний контент сторінки-->
     <main>
       <!--Герой-->
       <section class="hero">
         <div class="container hero-container">
-          <!--Заголовок-->
           <h1 class="hero-title">
             Effective Solutions<br />
             for Your Business
           </h1>
-          <!--Кнопка-->
           <button data-modal-open class="hero-btn">Order Service</button>
         </div>
       </section>
-      <!--Переваги компанії-->
+      <!-- Переваги компанії -->
       <section class="characteristics">
         <div class="container">
           <ul class="benefits">
             <li class="characteristics-item">
-              <div class="icon-wrapper benefits">
+              <div class="icon-wrapper-benefits">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="header-three-title benefits-header">Strategy</h3>
+              <h3 class="headertwo-title benefits-header">Strategy</h3>
               <p class="paragraph-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
@@ -82,12 +80,12 @@
             </li>
 
             <li class="characteristics-item">
-              <div class="icon-wrapper benefits">
+              <div class="icon-wrapper-benefits">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="header-three-title benefits-header">Punctuality</h3>
+              <h3 class="headertwo-title benefits-header">Punctuality</h3>
               <p class="paragraph-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
@@ -95,12 +93,12 @@
             </li>
 
             <li class="characteristics-item">
-              <div class="icon-wrapper benefits">
+              <div class="icon-wrapper-benefits">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="header-three-title benefits-header">Diligence</h3>
+              <h3 class="headertwo-title benefits-header">Diligence</h3>
               <p class="paragraph-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
@@ -108,12 +106,12 @@
             </li>
 
             <li class="characteristics-item">
-              <div class="icon-wrapper benefits">
+              <div class="icon-wrapper-benefits">
                 <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="header-three-title benefits-header">Technologies</h3>
+              <h3 class="headertwo-title benefits-header">Technologies</h3>
               <p class="paragraph-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
@@ -124,11 +122,10 @@
       </section>
 
       <!--Чим займається компанія-->
-      <section class="what-company-does">
+      <!-- <section class="what-company-does">
         <div class="container">
-          <!--Заголовок секції-->
+   
           <h2 class="headertwo-title">What are we doing</h2>
-          <!--Фотографії платформ для яких створюються продукти-->
           <ul class="unordered-list wawd-photos-list">
             <li>
               <img
@@ -156,10 +153,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!--Члени команди-->
-      <section class="our-team">
+      <!-- <section class="our-team">
         <div class="container">
           <h2 class="headertwo-title">Our Team</h2>
 
@@ -311,9 +308,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="customers">
+      <!-- <!-- <section class="customers">
         <div class="container customers-container">
           <h2 class="headertwo-title">Customers</h2>
           <ul class="customers-list unordered-list">
@@ -361,11 +358,11 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
     <!--Підвал сторінки-->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container footer-container">
         <div>
           <a href="./index.html" class="logo-footer"
@@ -425,8 +422,9 @@
           </div>
         </form>
       </div>
-    </footer>
-    <div data-modal class="backdrop is-hidden">
+    </footer> -->
+
+    <!-- <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <button data-modal-close class="close-modal">
           <svg class="icon icon-close">
@@ -510,6 +508,6 @@
         </form>
       </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
   </body>
 </html>

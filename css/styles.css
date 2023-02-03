@@ -5,6 +5,15 @@
   --bg-icon: #f4f4fd;
 }
 
+/* Перенести, сюди не відноситься */
+.header-three-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+}
+
 p,
 h1,
 h2,
@@ -17,6 +26,7 @@ h6 {
 
 ul,
 ol {
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -31,9 +41,9 @@ body {
 }
 
 .container {
-  width: 1158px;
+  /* max-width: 396px; */
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 16px;
 }
 
 /* Клас для візуального скриття будь-якого елементу */
@@ -145,17 +155,18 @@ body {
 }
 
 /*Main*/
+/* 1 секція */
 .hero {
   background-color: var(--background-color);
-  padding: 192px 0px;
+  padding: 112px 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-image.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    url(../images/hero-bgi-mob-1x.jpg);
 }
 
 .hero-container {
@@ -165,26 +176,22 @@ body {
 }
 
 .hero-title {
-  font-weight: 500;
-  font-size: 56px;
-  line-height: 1.07;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
 }
 
 .hero-btn {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.04em;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
   padding: 16px 32px;
-  gap: 10px;
   background-color: var(--logo-color);
   color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -207,39 +214,20 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.what-company-does {
-  padding-bottom: 120px;
+/* 2 секція */
+.characteristics {
+  padding: 96px 0px;
 }
 
 .benefits {
   display: flex;
-  list-style-type: none;
-  gap: 24px;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  max-width: 100%;
 }
 
-.characteristics {
-  padding: 120px 0px;
-}
-
-.characteristics-item {
-  max-width: 264px;
-}
-
-.icon-wrapper.benefits {
-  height: 112px;
-  background-color: var(--bg-icon);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 8px;
-}
-
-.header-three-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--background-color);
+.icon-wrapper-benefits {
+  display: none;
 }
 
 .benefits-header {
@@ -247,20 +235,24 @@ body {
 }
 
 .paragraph-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
+/* 3 секція */
+.what-company-does {
+  padding-bottom: 120px;
+}
+
 .headertwo-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
-  text-align: center;
+  line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
   color: var(--background-color);
-  margin-bottom: 72px;
+  text-align: center;
 }
 
 .unordered-list {
