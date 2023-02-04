@@ -34,6 +34,27 @@
     width: 356px;
   }
 
+  /* 3 секція відсутня на планшеті */
+
+  /* 4 секція */
+  .our-team {
+    padding-bottom: 104px;
+  }
+
+  .ot-ul {
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+
+  /* 5 секція */
+  .customers-list {
+    column-gap: 24px;
+  }
+
+  .customers-list-item {
+    width: 168px;
+  }
+
   /* Щільність пікселів: 2 */
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),

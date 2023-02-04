@@ -47,7 +47,43 @@
     letter-spacing: 0.02em;
   }
 
-  /* 3 секція */
+  /* 3 секція присутня тільки на десктопі*/
+  .what-company-does {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .wawd-title {
+    margin-bottom: 72px;
+  }
+
+  .wawd-photos-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .wawd-photos {
+    background-image: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    );
+    background-blend-mode: soft-light, normal;
+    border: 1px solid #e7e9fc;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+  /* 4 секція */
+  .our-team {
+    padding: 120px 0px;
+  }
+
+  /* 5 секція */
+  .customers {
+    padding: 120px 0px;
+  }
 
   /* Щільність пікселів: 2 */
   @media (min-device-pixel-ratio: 2),
