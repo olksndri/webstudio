@@ -86,6 +86,12 @@
     width: 264px;
   }
 
+  /* модалка */
+  .modal {
+    max-width: 408px;
+    padding: 72px 24px 24px 24px;
+  }
+
   /* Щільність пікселів: 2 */
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
