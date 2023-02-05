@@ -1,6 +1,6 @@
 @media screen and (min-width: 320px) {
   .container {
-    max-width: 428px;
+    max-width: 480px;
   }
 
   /* Щільність пікселів: 2 */
@@ -25,5 +25,11 @@
   .accepting-label {
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .menu {
+    padding-right: 40px;
   }
 }

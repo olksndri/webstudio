@@ -49,9 +49,11 @@
             >+11 (000) 111-11-11</a
           >
         </ul>
-        <svg width="32" height="22" class="icon-hamburger">
-          <use href="./images/icons.svg#icon-hamburger"></use>
-        </svg>
+        <button data-menu-open class="menu-btn-open">
+          <svg width="32" height="22" class="icon-hamburger">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -133,6 +135,7 @@
           <ul class="wawd-photos-list">
             <li>
               <img
+                srcset="images/Rectangle71.jpg 1x, images/Rectangle71-2x.jpg 2x"
                 src="images/Rectangle71.jpg"
                 alt="Computer display"
                 width="360"
@@ -141,6 +144,7 @@
             </li>
             <li>
               <img
+                srcset="images/Rectangle72.jpg 1x, images/Rectangle72-2x.jpg 2x"
                 src="images/Rectangle72.jpg"
                 alt="Smartphone screen"
                 width="360"
@@ -149,6 +153,7 @@
             </li>
             <li>
               <img
+                srcset="images/Rectangle73.jpg 1x, images/Rectangle73-2x.jpg 2x"
                 src="images/Rectangle73.jpg"
                 alt="Smartphone and laptop"
                 width="360"
@@ -167,6 +172,7 @@
           <ul class="ot-ul">
             <li class="our-team-item">
               <img
+                srcset="images/img1.jpg 1x, images/img1-2x.jpg 2x"
                 src="images/img1.jpg"
                 alt="Grinning black-haired man"
                 width="264"
@@ -204,7 +210,12 @@
             </li>
 
             <li class="our-team-item">
-              <img src="images/img2.jpg" alt="Wide-smiling guy" width="264" />
+              <img
+                srcset="images/img2.jpg 1x, images/img2-2x.jpg 2x"
+                src="images/img2.jpg"
+                alt="Wide-smiling guy"
+                width="264"
+              />
               <h3 class="header-three-title photocards-header">Tom Ford</h3>
               <p class="paragraph-text">Frontend Developer</p>
               <ul class="soc-list">
@@ -237,6 +248,7 @@
 
             <li class="our-team-item">
               <img
+                srcset="images/img3.jpg 1x, images/img3-2x.jpg 2x"
                 src="images/img3.jpg"
                 alt="The brunette looking in full-face"
                 width="264"
@@ -275,6 +287,7 @@
 
             <li class="our-team-item">
               <img
+                srcset="images/img4.jpg 1x, images/img4-2x.jpg 2x"
                 src="images/img4.jpg"
                 alt="Young guy looking in full-face"
                 width="264"
@@ -433,6 +446,79 @@
       </div>
     </footer>
 
+    <!-- Моб-меню -->
+    <!-- <div data-menu class="menu-backdrop is-hidden"> -->
+    <div data-menu class="menu is-hidden">
+      <div class="menu-btn-close">
+        <button data-menu-close class="close-menu">
+          <svg class="icon icon-close">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="menu-content-wrap">
+        <div>
+          <nav class="menu-navigation">
+            <ul class="menu-navigation-list">
+              <li>
+                <a href="./index.html" class="menu-navigation-link current"
+                  >Studio</a
+                >
+              </li>
+
+              <li>
+                <a href="./portfolio.html" class="menu-navigation-link"
+                  >Portfolio</a
+                >
+              </li>
+
+              <li>
+                <a href="" class="menu-navigation-link iris">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <ul class="menu-contacts-list">
+            <a href="tel:+11(000)111-11-11" class="menu-contacts tel"
+              >+11 (000) 111-11-11</a
+            >
+            <a href="mailto:info@devstudio.com" class="menu-contacts email"
+              >info@devstudio.com</a
+            >
+          </ul>
+          <ul class="menu-soc-list">
+            <li class="menu-soc-list-item">
+              <a href="" class="menu-soc-list"
+                ><svg cwidth="24" height="24" class="menu-soc-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="menu-soc-list-item">
+              <a href="" class="menu-soc-list"
+                ><svg width="24" height="24" class="menu-soc-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="menu-soc-list-item">
+              <a href="" class="menu-soc-list"
+                ><svg width="24" height="24" class="menu-soc-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="menu-soc-list-item">
+              <a href="" class="menu-soc-list"
+                ><svg width="24" height="24" class="menu-soc-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <!-- Модалка -->
     <div data-modal class="backdrop is-hidden">
       <div class="modal">
         <button data-modal-close class="close-modal">
@@ -517,6 +603,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/mob-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
 </html>
