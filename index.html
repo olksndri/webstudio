@@ -364,7 +364,7 @@
     <!--Footer-->
     <footer class="footer">
       <div class="container footer-container">
-        <div>
+        <div class="logo-text-wrapper">
           <a href="./index.html" class="logo-footer"
             ><span class="web-footer">Web</span>studio</a
           >
@@ -405,20 +405,24 @@
         <form class="footer-form">
           <div class="footer-form-wrapper">
             <label for="email" class="subscribe">Subscribe</label>
-            <input
-              id="email"
-              type="email"
-              name="email"
-              class="footer-input"
-              placeholder="E-mail"
-              required
-            />
-            <button type="submit" class="btn-footer">
-              <span class="btn-text">Subscribe</span
-              ><svg class="btn-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-telegram"></use>
-              </svg>
-            </button>
+            <div class="input-btn-wrap">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="footer-input"
+                placeholder="E-mail"
+                required
+              />
+              <div class="btn-footer-wrap">
+                <button type="submit" class="btn-footer">
+                  <span class="btn-text">Subscribe</span
+                  ><svg class="btn-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </form>
       </div>

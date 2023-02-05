@@ -388,7 +388,6 @@ body {
   font-size: 18px;
   line-height: 1.16;
   display: flex;
-  align-items: center;
   justify-content: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -418,7 +417,6 @@ body {
 }
 
 .social-media-header {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -460,19 +458,26 @@ body {
   background-color: #31d0aa;
 }
 
-.footer-form-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 16px;
-  justify-content: center;
+.footer-form {
+  width: 100%;
 }
 
 .subscribe {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+
+.input-btn-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 16px;
 }
 
 .footer-input {

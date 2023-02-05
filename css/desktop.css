@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1160px;
+    max-width: 1200px;
   }
 
   /* 1 секція */
@@ -83,6 +83,43 @@
   /* 5 секція */
   .customers {
     padding: 120px 0px;
+  }
+
+  /* footer */
+  .footer {
+    padding: 120px 0;
+  }
+
+  .footer-container {
+    width: 1200px;
+    flex-wrap: nowrap;
+    row-gap: 0;
+    column-gap: 0;
+  }
+
+  .logo-text-wrapper {
+    margin-right: 120px;
+  }
+
+  .logo-footer {
+    width: 100%;
+  }
+
+  .footer-text {
+    width: 264px;
+  }
+
+  .footer-form {
+    margin-left: 80px;
+  }
+
+  .subscribe {
+    justify-content: flex-start;
+  }
+
+  .input-btn-wrap {
+    justify-content: flex-start;
+    row-gap: 0;
   }
 
   /* Щільність пікселів: 2 */

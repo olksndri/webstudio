@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     /* margin: 0; */
   }
 
@@ -53,6 +53,37 @@
 
   .customers-list-item {
     width: 168px;
+  }
+
+  /*Footer*/
+  .footer {
+    padding-left: 92px;
+  }
+
+  .footer-container {
+    justify-content: flex-start;
+    column-gap: 24px;
+  }
+
+  .logo-footer {
+    justify-content: flex-start;
+  }
+
+  .social-media-header {
+    text-align: left;
+  }
+
+  .subscribe {
+    justify-content: flex-start;
+  }
+
+  .input-btn-wrap {
+    column-gap: 24px;
+    justify-content: flex-start;
+  }
+
+  .footer-input {
+    width: 264px;
   }
 
   /* Щільність пікселів: 2 */
