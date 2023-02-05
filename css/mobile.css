@@ -15,6 +15,10 @@
         url(../images/hero-bgi-mob-2x.jpg);
     }
   }
+
+  .header-container {
+    max-width: none;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 371px) {

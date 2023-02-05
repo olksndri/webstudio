@@ -3,6 +3,43 @@
     max-width: 1200px;
   }
 
+  /* Header */
+  .header {
+    padding-top: 24px;
+    padding-bottom: 28px;
+    height: 76px;
+  }
+
+  .header-container {
+    max-width: none;
+    padding: 0px 156px;
+  }
+
+  .logo {
+    margin-right: 76px;
+  }
+
+  .navigation {
+    margin-right: auto;
+  }
+
+  .navigation-link.current::after {
+    top: 45.5px;
+  }
+
+  .contacts-list {
+    flex-wrap: nowrap;
+    row-gap: 0;
+    column-gap: 40px;
+    max-width: none;
+  }
+
+  .contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
   /* 1 секція */
   .hero {
     padding: 188px 0px;
@@ -117,9 +154,7 @@
     row-gap: 0;
   }
 
-  /* модалка */
-  .modal {
-  }
+  /* модалка - наслідує стилі планшету */
 
   /* Щільність пікселів: 2 */
   @media (min-device-pixel-ratio: 2),
