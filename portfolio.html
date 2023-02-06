@@ -7,6 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,12 +21,10 @@
     <!--Шапка сторінки-->
     <header class="header">
       <div class="container header-container">
-        <!--Логотип-->
         <a href="./index.html" class="logo"
           ><span class="web">Web</span>studio</a
         >
 
-        <!--Розділ основної навігації з посиланнями на секції поточної або інших сторінок-->
         <nav class="navigation">
           <ul class="navigation-list">
             <li>
@@ -41,14 +42,20 @@
             </li>
           </ul>
         </nav>
+        <ul class="contacts-list">
+          <a href="mailto:info@devstudio.com" class="contacts email"
+            >info@devstudio.com</a
+          >
 
-        <!--Електронна пошта-->
-        <a href="mailto:info@devstudio.com" class="contacts email"
-          >info@devstudio.com</a
-        >
-
-        <!--Телефонний номер-->
-        <a href="tel:+11(000)111-11-11" class="contacts">+11 (000) 111-11-11</a>
+          <a href="tel:+11(000)111-11-11" class="contacts"
+            >+11 (000) 111-11-11</a
+          >
+        </ul>
+        <button data-menu-open class="menu-btn-open">
+          <svg width="32" height="22" class="icon-hamburger">
+            <use href="./images/icons.svg#icon-hamburger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -71,7 +78,18 @@
           <ul class="content unordered-list">
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img src="./images/img5.jpg" alt="Bank app" width="360" />
+                <picture
+                  ><source />
+                  <source />
+                  <img src="" alt="Bank app" class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img5.jpg 1x, ./images/img5-2x.jpg 2x"
+                  src="./images/img5.jpg"
+                  alt="Bank app"
+                  width="360"
+                  class="img-portf"
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -89,7 +107,17 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img src="./images/img6.jpg" alt="Smartphone" width="360" />
+                <picture
+                  ><source />
+                  <source />
+                  <img src="" alt="Smartphone" class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img6.jpg 1x, ./images/img6-2x.jpg 2x"
+                  src="./images/img6.jpg"
+                  alt="Smartphone"
+                  width="360"
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -105,7 +133,17 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img src="./images/img7.jpg" alt="Laptop" width="360" />
+                <picture
+                  ><source />
+                  <source />
+                  <img src="" alt="Laptop" class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img7.jpg 1x, ./images/img7-2x.jpg 2x"
+                  src="./images/img7.jpg"
+                  alt="Laptop"
+                  width="360"
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -121,7 +159,17 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img src="./images/img8.jpg" alt="Steering wheel" width="360" />
+                <picture
+                  ><source />
+                  <source />
+                  <img src="" alt="Steering wheel" class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img8.jpg 1x, ./images/img8-2x.jpg 2x"
+                  src="./images/img8.jpg"
+                  alt="Steering wheel"
+                  width="360"
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -137,11 +185,17 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img
+                <picture
+                  ><source />
+                  <source />
+                  <img src="" alt="Locked smartphone screen" class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img9.jpg 1x, ./images/img9-2x.jpg 2x"
                   src="./images/img9.jpg"
                   alt="Locked smartphone screen"
                   width="360"
-                />
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -157,11 +211,20 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img
+                <picture
+                  ><source />
+                  <source />
+                  <img
+                    src=""
+                    alt="Joyful girl with a smartphone"
+                    class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img10.jpg 1x, ./images/img10-2x.jpg 2x"
                   src="./images/img10.jpg"
                   alt="Joyful girl with a smartphone"
                   width="360"
-                />
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -177,11 +240,20 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img
+                <picture
+                  ><source />
+                  <source />
+                  <img
+                    src=""
+                    alt="Templates of Instagram stories"
+                    class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img11.jpg 1x, ./images/img11-2x.jpg 2x"
                   src="./images/img11.jpg"
                   alt="Templates of Instagram stories"
                   width="360"
-                />
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -197,11 +269,20 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img
+                <picture
+                  ><source />
+                  <source />
+                  <img
+                    src=""
+                    alt="Woman with natural products"
+                    class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img12.jpg 1x, ./images/img12-2x.jpg 2x"
                   src="./images/img12.jpg"
                   alt="Woman with natural products"
                   width="360"
-                />
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -217,7 +298,17 @@
             </li>
             <li class="content-item">
               <div class="overlay-wrapper">
-                <img src="./images/img13.jpg" alt="A cup of tee" width="360" />
+                <picture
+                  ><source />
+                  <source />
+                  <img src="" alt="A cup of tee" class="img-portf"
+                /></picture>
+                <!-- <img
+                  srcset="./images/img13.jpg 1x"
+                  src="./images/img13.jpg"
+                  alt="A cup of tee"
+                  width="360"
+                /> -->
                 <div class="overlay">
                   <p class="overlay-text">
                     14 Stylish and User-Friendly App Design Concepts · Task
@@ -239,7 +330,7 @@
     <!--Підвал сторінки-->
     <footer class="footer">
       <div class="container footer-container">
-        <div>
+        <div class="logo-text-wrapper">
           <a href="./index.html" class="logo-footer"
             ><span class="web-footer">Web</span>studio</a
           >
@@ -250,7 +341,7 @@
         </div>
         <div class="soc-media">
           <h4 class="social-media-header">Social media</h4>
-          <ul class="unordered-list soc-media-list">
+          <ul class="soc-media-list">
             <li class="soc-media-item">
               <a href="" class="soc-media link">
                 <svg width="24px" height="24px" class="soc-media-icon">
@@ -278,22 +369,26 @@
           </ul>
         </div>
         <form class="footer-form">
-          <label for="email" class="subscribe">Subscribe</label>
-          <div class="input-wrapper">
-            <input
-              id="email"
-              type="email"
-              name="email"
-              class="footer-input"
-              placeholder="E-mail"
-              required
-            />
-            <button type="submit" class="btn-footer">
-              <span class="btn-text">Subscribe</span
-              ><svg class="btn-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-telegram"></use>
-              </svg>
-            </button>
+          <div class="footer-form-wrapper">
+            <label for="email" class="subscribe">Subscribe</label>
+            <div class="input-btn-wrap">
+              <input
+                id="email"
+                type="email"
+                name="email"
+                class="footer-input"
+                placeholder="E-mail"
+                required
+              />
+              <div class="btn-footer-wrap">
+                <button type="submit" class="btn-footer">
+                  <span class="btn-text">Subscribe</span
+                  ><svg class="btn-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-telegram"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
         </form>
       </div>
