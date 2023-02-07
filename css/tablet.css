@@ -1,11 +1,9 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
-    /* margin: 0; */
+    width: 768px;
   }
 
   .header-container {
-    max-width: none;
     align-items: baseline;
   }
 
@@ -102,6 +100,9 @@
   .characteristics-item {
     width: 356px;
   }
+  .paragraph-text {
+    font-weight: 400;
+  }
 
   /* 3 секція відсутня на планшеті */
 
@@ -126,12 +127,22 @@
 
   /*Footer*/
   .footer {
-    padding-left: 92px;
+    padding-left: 0;
   }
 
   .footer-container {
+    width: 582px;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
-    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .logo-text-wrapper {
+    margin-right: 24px;
   }
 
   .logo-footer {

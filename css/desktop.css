@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    width: 1158px;
   }
 
   /* Header */
@@ -8,11 +8,6 @@
     padding-top: 24px;
     padding-bottom: 28px;
     height: 76px;
-  }
-
-  .header-container {
-    max-width: none;
-    padding: 0px 156px;
   }
 
   .logo {
@@ -116,22 +111,31 @@
   .our-team {
     padding: 120px 0px;
   }
+  .ot-ul {
+    flex-wrap: nowrap;
+  }
 
   /* 5 секція */
   .customers {
     padding: 120px 0px;
   }
 
+  .customers-list {
+    flex-wrap: nowrap;
+  }
+
   /* footer */
   .footer {
-    padding: 120px 0;
+    padding: 100px 0;
   }
 
   .footer-container {
-    width: 1200px;
+    width: 1158px;
+  }
+
+  .footer-wrapper {
     flex-wrap: nowrap;
-    row-gap: 0;
-    column-gap: 0;
+    row-gap: 0px;
   }
 
   .logo-text-wrapper {

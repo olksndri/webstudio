@@ -42,7 +42,7 @@ body {
 
 .container {
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 15px;
 }
 
 /* Клас для візуального скриття будь-якого елементу */
@@ -342,7 +342,7 @@ body {
   padding: 96px 0px;
 }
 
-.footer-container {
+.footer-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -395,6 +395,7 @@ body {
 
 .soc-media-list {
   display: flex;
+  justify-content: center;
   column-gap: 16px;
 }
 
@@ -657,11 +658,15 @@ body {
 }
 
 .menu-content-wrap {
-  height: 716px;
+  height: 100%;
   max-width: none;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.menu-contacts-wrap {
+  margin-bottom: 40px;
 }
 .menu-navigation {
   max-width: min-content;
