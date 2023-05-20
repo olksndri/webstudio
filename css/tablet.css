@@ -184,4 +184,15 @@
         url(../images/hero-bgi-tab-2x.jpg);
     }
   }
+
+/* Portfolio */
+.content {
+  justify-content: space-between;
+}
+.filters {
+  justify-content: center;
+}
+.content-item {
+    flex-basis: calc((100% - 48px) / 3);
+}
 }
