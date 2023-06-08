@@ -36,7 +36,7 @@ img {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--basic-text-color);
 }
 
@@ -78,7 +78,7 @@ body {
 
 .web,
 .logo {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -153,7 +153,7 @@ body {
 }
 
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -350,7 +350,7 @@ body {
 }
 
 .logo-footer {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -364,7 +364,7 @@ body {
 }
 
 .web-footer {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
@@ -511,7 +511,7 @@ body {
 }
 
 .filters-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   box-sizing: border-box;
   font-weight: 500;
   font-size: 16px;
@@ -556,7 +556,7 @@ body {
   width: calc((100% - 48px) / 3);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: fit-content;
+  /* width: fit-content; */
   width: 396px;
 }
 
@@ -922,7 +922,7 @@ body {
 }
 
 .accepting-label::before {
-  content: "";
+  content: '';
   width: 16px;
   height: 16px;
   margin-right: 8px;
@@ -960,5 +960,3 @@ body {
   color: #ffffff;
 }
 /* Кінець формлення форм модалки */
-
-
