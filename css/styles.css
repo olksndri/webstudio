@@ -487,6 +487,7 @@ body {
   background-color: var(--logo-color);
   border: 0px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .btn-text {
