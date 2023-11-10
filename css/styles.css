@@ -557,8 +557,8 @@ body {
   width: calc((100% - 48px) / 3);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* width: fit-content; */
   width: 396px;
+  cursor: pointer;
 }
 
 .content-item:hover,
@@ -807,6 +807,7 @@ body {
 .close-modal:focus,
 .close-modal:hover {
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .icon-close {
@@ -959,7 +960,17 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  cursor: pointer;
 }
+
+.modal-submit:hover,
+.modal-submit:focus,
+.modal-submit:active {
+  background-color: var(--logo-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 /* Кінець формлення форм модалки */
 
 body.modal-open {
